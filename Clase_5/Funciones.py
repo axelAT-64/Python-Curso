@@ -13,3 +13,7 @@ b=3
 resultado=sumar(a,b)
 print("-----Fuera de la Funcion-----")
 print(f"el resultado de la suma es: {resultado}")    
+if resultado>5:
+    print("el resultado es mayor a 5")
+else:
+    print("el resultado es menor o igual a 5")
