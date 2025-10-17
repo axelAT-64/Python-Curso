@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Página About</h1>
+    
+    <nav>
+        <a href="{{ url_for('home') }}">Inicio</a>
+        <a href="{{ url_for('about') }}">About</a>
+        <a href="{{ url_for('acerca') }}">Acerca de</a>
+    </nav>
+    
+    <main>
+        <p>Esta es la página About de tu aplicación Flask.</p>
+        <p>Puedes agregar información en inglés o cualquier contenido que quieras.</p>
+    </main>
+</body>
+</html>
